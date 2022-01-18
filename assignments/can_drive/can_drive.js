@@ -8,8 +8,7 @@ function CanDrive(hasDrivingLiscence, isTired, isSober) {
     else if (isSober===false || isTired===true){
         return "You shouldn't drive"
     }
-  
-   
 }
+
 
 module.exports = CanDrive;
